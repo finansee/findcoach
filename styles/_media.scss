@@ -19,14 +19,6 @@
   #questionaire {
     width: 100% !important;
   }
-  // display coaches
-  #coachContainer,
-  #coachContainer .container {
-    max-width: 98%;
-  }
-  .displayCoach .row {
-    padding-left: 1rem !important;
-  }
 }
 
 @media (max-width: 768px) {
@@ -35,7 +27,7 @@
     width: 100% !important;
   }
   // display coaches
-  .displayCoach {
+  .displaCoach {
     flex-direction: column !important;
     margin: 0% !important;
     .col-6 {
@@ -57,7 +49,7 @@
     width: 95% !important;
   }
   // display coaches
-  .displayCoach .col-6 .row {
+  .displaCoach .col-6 .row {
     padding-left: 0.5rem !important;
     padding-right: 0rem !important;
   }
@@ -99,7 +91,7 @@
     width: 100% !important;
   }
   // display coaches
-  .displayCoach .row1 {
+  .displaCoach .row1 {
     display: flex;
     flex-direction: column-reverse;
     .col-7 {

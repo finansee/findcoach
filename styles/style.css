@@ -8,6 +8,9 @@
     text-align: start !important;
     margin: 7px 0px !important;
   }
+  #footer-elements a {
+    font-size: 19px;
+  }
   #footer-elements .col-2 {
     width: 30%;
   }
@@ -36,6 +39,19 @@
   }
 }
 
+@media (max-width: 700px) and (min-width: 500px) {
+  #footer-elements .col-3:nth-child(odd) {
+    margin-left: 9rem !important;
+    padding-right: 0px !important;
+  }
+  .col-3:nth-child(even) {
+    padding: 0px !important;
+  }
+  .col-3:nth-child(even) p, .col-3:nth-child(even) .services {
+    font-size: 19px !important;
+  }
+}
+
 @media (max-width: 1000px) and (min-width: 480px) {
   #howToStart .card {
     width: 13rem !important;
@@ -54,27 +70,20 @@
   #questionaire {
     width: 100% !important;
   }
-  #coachContainer,
-  #coachContainer .container {
-    max-width: 98%;
-  }
-  .displayCoach .row {
-    padding-left: 1rem !important;
-  }
 }
 
 @media (max-width: 768px) {
   .auth-container {
     width: 100% !important;
   }
-  .displayCoach {
+  .displaCoach {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
     margin: 0% !important;
   }
-  .displayCoach .col-6 {
+  .displaCoach .col-6 {
     width: 100vh !important;
     margin-bottom: 3rem;
   }
@@ -90,7 +99,7 @@
   .auth-form {
     width: 95% !important;
   }
-  .displayCoach .col-6 .row {
+  .displaCoach .col-6 .row {
     padding-left: 0.5rem !important;
     padding-right: 0rem !important;
   }
@@ -134,7 +143,7 @@
   #questionaire {
     width: 100% !important;
   }
-  .displayCoach .row1 {
+  .displaCoach .row1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -143,7 +152,7 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .displayCoach .row1 .col-7 {
+  .displaCoach .row1 .col-7 {
     width: 100%;
     margin-bottom: 0.5rem;
   }
