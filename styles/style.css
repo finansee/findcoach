@@ -54,20 +54,27 @@
   #questionaire {
     width: 100% !important;
   }
+  #coachContainer,
+  #coachContainer .container {
+    max-width: 98%;
+  }
+  .displayCoach .row {
+    padding-left: 1rem !important;
+  }
 }
 
 @media (max-width: 768px) {
   .auth-container {
     width: 100% !important;
   }
-  .displaCoach {
+  .displayCoach {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
             flex-direction: column !important;
     margin: 0% !important;
   }
-  .displaCoach .col-6 {
+  .displayCoach .col-6 {
     width: 100vh !important;
     margin-bottom: 3rem;
   }
@@ -83,7 +90,7 @@
   .auth-form {
     width: 95% !important;
   }
-  .displaCoach .col-6 .row {
+  .displayCoach .col-6 .row {
     padding-left: 0.5rem !important;
     padding-right: 0rem !important;
   }
@@ -127,7 +134,7 @@
   #questionaire {
     width: 100% !important;
   }
-  .displaCoach .row1 {
+  .displayCoach .row1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -136,7 +143,7 @@
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .displaCoach .row1 .col-7 {
+  .displayCoach .row1 .col-7 {
     width: 100%;
     margin-bottom: 0.5rem;
   }
